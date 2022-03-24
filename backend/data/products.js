@@ -27,8 +27,8 @@ const products = [
 		countInStock: 5,
 	},
 	{
-		name: 'Blue Beats Headphone',
-		image: '/images/blue_beats.png',
+		name: 'Red Beats Headphone',
+		image: '/images/red_beats.png',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse',
 		brand: 'Beats',
@@ -36,5 +36,4 @@ const products = [
 		countInStock: 11,
 	},
 ]
-
-export default products
+module.exports = products
