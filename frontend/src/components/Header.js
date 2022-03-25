@@ -1,11 +1,16 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap'
+
 const Header = () => {
 	return (
 		<header>
 			<Navbar bg='dark' variant='dark' expand='lg'>
 				<Container>
-					<Navbar.Brand href='#home'>AudioShop</Navbar.Brand>
+					<LinkContainer to='/'>
+						<Navbar.Brand>AUDIO SHOP</Navbar.Brand>
+					</LinkContainer>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ms-auto'>
